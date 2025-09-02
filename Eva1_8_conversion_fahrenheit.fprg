@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Eva1_8_conversion_fahrenheit"/>
+        <attribute name="authors" value="Administrador"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-01 10:32:22 p. m."/>
+        <attribute name="created" value="QWRtaW5pc3RyYWRvcjtXSU4tRkE0VUJIM01MQUw7MjAyNS0wOS0wMTsxMDowNzo1NiBwLiBtLjszODY5"/>
+        <attribute name="edited" value="QWRtaW5pc3RyYWRvcjtXSU4tRkE0VUJIM01MQUw7MjAyNS0wOS0wMTsxMDozMjoyMiBwLiBtLjsyOzM5Njk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="F" type="Real" array="False" size=""/>
+            <declare name="C" type="Real" array="False" size=""/>
+            <assign variable="F" expression="100"/>
+            <assign variable="C" expression="(5*(F-32))/9"/>
+            <output expression="&quot;La conversi&#243;n de 100 &#176;F a &#176;C es: &quot;" newline="True"/>
+            <output expression="C" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
